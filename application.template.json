@@ -10,11 +10,6 @@
       "preRelease": "false"
     },
     {
-      "name": "app-platform-complete",
-      "version": "^2.1.0",
-      "preRelease": "false"
-    },
-    {
       "name": "app-search",
       "version": "^1.0.0",
       "preRelease": "false"
