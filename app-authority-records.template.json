@@ -1,0 +1,48 @@
+{
+  "name": "${project.name}",
+  "version": "${project.version}",
+  "description": "${project.description}",
+  "platform": "complete",
+  "dependencies": [
+    {
+      "name": "app-platform-minimal",
+      "version": "^2.1.0"
+    },
+    {
+      "name": "app-platform-complete",
+      "version": "^2.1.0"
+    },
+    {
+      "name": "app-search",
+      "version": "^1.0.0"
+    },
+    {
+      "name": "app-marc-storage",
+      "version": "^1.0.0"
+    },
+    {
+      "name": "app-quick-marc",
+      "version": "^1.0.0"
+    }
+  ],
+  "modules": [
+    {
+      "name": "mod-entities-links",
+      "version": "latest"
+    }
+  ],
+  "uiModules": [
+    {
+      "name": "ui-marc-authorities",
+      "version": "latest"
+    },
+    {
+      "name": "ui-plugin-find-authority",
+      "version": "latest"
+    },
+    {
+      "name": "stripes-authority-components",
+      "version": "latest"
+    }
+  ]
+}
