@@ -6,32 +6,47 @@
   "dependencies": [
     {
       "name": "app-platform-minimal",
-      "version": "^2.0.0",
-      "preRelease": "false"
+      "version": "^2.1.0-SNAPSHOT",
+      "preRelease": "only"
+    },
+    {
+      "name": "app-search",
+      "version": "^1.0.0-SNAPSHOT",
+      "preRelease": "only"
+    },
+    {
+      "name": "app-marc-storage",
+      "version": "^1.0.0-SNAPSHOT",
+      "preRelease": "only"
+    },
+    {
+      "name": "app-quick-marc",
+      "version": "^1.0.0-SNAPSHOT",
+      "preRelease": "only"
     }
   ],
   "modules": [
     {
       "name": "mod-entities-links",
       "version": "latest",
-      "preRelease": "false"
+      "preRelease": "only"
     }
   ],
   "uiModules": [
     {
       "name": "folio_marc-authorities",
       "version": "latest",
-      "preRelease": "false"
+      "preRelease": "only"
     },
     {
       "name": "folio_plugin-find-authority",
       "version": "latest",
-      "preRelease": "false"
+      "preRelease": "only"
     },
     {
       "name": "stripes-authority-components",
       "version": "latest",
-      "preRelease": "false"
+      "preRelease": "only"
     }
   ]
 }
