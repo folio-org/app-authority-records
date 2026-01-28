@@ -29,15 +29,15 @@
   ],
   "uiModules": [
     {
-      "name": "ui-marc-authorities",
+      "name": "folio_marc-authorities",
       "version": "latest"
     },
     {
-      "name": "ui-plugin-find-authority",
+      "name": "folio_plugin-find-authority",
       "version": "latest"
     },
     {
-      "name": "stripes-authority-components",
+      "name": "folio_stripes-authority-components",
       "version": "latest"
     }
   ]
