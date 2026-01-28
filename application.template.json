@@ -44,7 +44,7 @@
       "preRelease": "only"
     },
     {
-      "name": "stripes-authority-components",
+      "name": "folio_stripes-authority-components",
       "version": "latest",
       "preRelease": "only"
     }
