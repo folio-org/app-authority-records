@@ -1,14 +1,18 @@
 {
-  "id" : "app-authority-records-1.1.0-SNAPSHOT.100200000006196",
+  "id" : "app-authority-records-1.1.0-SNAPSHOT.100200000006198",
   "name" : "app-authority-records",
-  "version" : "1.1.0-SNAPSHOT.100200000006196",
+  "version" : "1.1.0-SNAPSHOT.100200000006198",
   "description" : "Authority Records Application",
   "modules" : [ {
-    "id" : "mod-entities-links-5.1.0-SNAPSHOT.2416",
+    "id" : "mod-entities-links-5.1.0-SNAPSHOT.2419",
     "name" : "mod-entities-links",
-    "version" : "5.1.0-SNAPSHOT.2416"
+    "version" : "5.1.0-SNAPSHOT.2419"
   } ],
   "uiModules" : [ {
+    "id" : "folio_marc-authorities-8.1.1099000000001658",
+    "name" : "folio_marc-authorities",
+    "version" : "8.1.1099000000001658"
+  }, {
     "id" : "folio_plugin-find-authority-6.0.1099000000000153",
     "name" : "folio_plugin-find-authority",
     "version" : "6.0.1099000000000153"
@@ -16,10 +20,6 @@
     "id" : "folio_stripes-authority-components-7.1.1099000000000271",
     "name" : "folio_stripes-authority-components",
     "version" : "7.1.1099000000000271"
-  }, {
-    "id" : "folio_marc-authorities-8.1.1099000000001658",
-    "name" : "folio_marc-authorities",
-    "version" : "8.1.1099000000001658"
   } ],
   "dependencies" : [ {
     "name" : "app-platform-minimal",
@@ -39,7 +39,7 @@
     "preRelease" : "only"
   } ],
   "moduleDescriptors" : [ {
-    "id" : "mod-entities-links-5.1.0-SNAPSHOT.2416",
+    "id" : "mod-entities-links-5.1.0-SNAPSHOT.2419",
     "name" : "Entities Links",
     "requires" : [ {
       "id" : "source-storage-source-records",
@@ -472,7 +472,7 @@
       }
     },
     "launchDescriptor" : {
-      "dockerImage" : "folioci/mod-entities-links:5.1.0-SNAPSHOT.2416",
+      "dockerImage" : "folioci/mod-entities-links:5.1.0-SNAPSHOT.2419",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
