@@ -1,7 +1,7 @@
 {
-  "id" : "app-authority-records-1.1.0-SNAPSHOT.100200000006198",
+  "id" : "app-authority-records-1.1.0-SNAPSHOT.100200000006209",
   "name" : "app-authority-records",
-  "version" : "1.1.0-SNAPSHOT.100200000006198",
+  "version" : "1.1.0-SNAPSHOT.100200000006209",
   "description" : "Authority Records Application",
   "modules" : [ {
     "id" : "mod-entities-links-5.1.0-SNAPSHOT.2419",
@@ -9,9 +9,9 @@
     "version" : "5.1.0-SNAPSHOT.2419"
   } ],
   "uiModules" : [ {
-    "id" : "folio_marc-authorities-8.1.1099000000001658",
+    "id" : "folio_marc-authorities-8.1.1099000000001703",
     "name" : "folio_marc-authorities",
-    "version" : "8.1.1099000000001658"
+    "version" : "8.1.1099000000001703"
   }, {
     "id" : "folio_plugin-find-authority-6.0.1099000000000153",
     "name" : "folio_plugin-find-authority",
@@ -695,7 +695,7 @@
     }
   } ],
   "uiModuleDescriptors" : [ {
-    "id" : "folio_marc-authorities-8.1.1099000000001658",
+    "id" : "folio_marc-authorities-8.1.1099000000001703",
     "name" : "MARC Authorities module",
     "requires" : [ {
       "id" : "search-authorities",
