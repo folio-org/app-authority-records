@@ -1,12 +1,12 @@
 {
-  "id" : "app-authority-records-1.1.0-SNAPSHOT.100200000006370",
+  "id" : "app-authority-records-1.1.0-SNAPSHOT.100200000006383",
   "name" : "app-authority-records",
-  "version" : "1.1.0-SNAPSHOT.100200000006370",
+  "version" : "1.1.0-SNAPSHOT.100200000006383",
   "description" : "Authority Records Application",
   "modules" : [ {
-    "id" : "mod-entities-links-5.1.0-SNAPSHOT.2431",
+    "id" : "mod-entities-links-5.1.0-SNAPSHOT.2434",
     "name" : "mod-entities-links",
-    "version" : "5.1.0-SNAPSHOT.2431"
+    "version" : "5.1.0-SNAPSHOT.2434"
   } ],
   "uiModules" : [ {
     "id" : "folio_marc-authorities-8.1.1099000000001703",
@@ -39,7 +39,7 @@
     "preRelease" : "only"
   } ],
   "moduleDescriptors" : [ {
-    "id" : "mod-entities-links-5.1.0-SNAPSHOT.2431",
+    "id" : "mod-entities-links-5.1.0-SNAPSHOT.2434",
     "name" : "Entities Links",
     "requires" : [ {
       "id" : "source-storage-source-records",
@@ -472,7 +472,7 @@
       }
     },
     "launchDescriptor" : {
-      "dockerImage" : "folioci/mod-entities-links:5.1.0-SNAPSHOT.2431",
+      "dockerImage" : "folioci/mod-entities-links:5.1.0-SNAPSHOT.2434",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
