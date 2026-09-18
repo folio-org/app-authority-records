@@ -1,7 +1,7 @@
 {
-  "id" : "app-authority-records-1.1.0-SNAPSHOT.100200000007317",
+  "id" : "app-authority-records-1.1.0-SNAPSHOT.100200000007329",
   "name" : "app-authority-records",
-  "version" : "1.1.0-SNAPSHOT.100200000007317",
+  "version" : "1.1.0-SNAPSHOT.100200000007329",
   "description" : "Authority Records Application",
   "modules" : [ {
     "id" : "mod-entities-links-5.1.0-SNAPSHOT.2464",
@@ -9,9 +9,9 @@
     "version" : "5.1.0-SNAPSHOT.2464"
   } ],
   "uiModules" : [ {
-    "id" : "folio_stripes-authority-components-7.1.1099000000000278",
+    "id" : "folio_stripes-authority-components-7.1.1099000000000281",
     "name" : "folio_stripes-authority-components",
-    "version" : "7.1.1099000000000278"
+    "version" : "7.1.1099000000000281"
   }, {
     "id" : "folio_marc-authorities-8.1.1099000000001703",
     "name" : "folio_marc-authorities",
@@ -798,7 +798,7 @@
       }
     }
   }, {
-    "id" : "folio_stripes-authority-components-7.1.1099000000000278",
+    "id" : "folio_stripes-authority-components-7.1.1099000000000281",
     "name" : "Component library for Stripes Authority modules",
     "requires" : [ {
       "id" : "search-authorities",
